@@ -9,7 +9,7 @@ library(spatialreg)
 
 library(data.table)
 library(tidycensus)
-census_api_key("5290b3ffc1891002ed20b36df6668db209b09f47",install=TRUE, overwrite=TRUE) #Please install with your own census API key
+#census_api_key("INSERT_CENSUS_KEY_HERE",install=TRUE, overwrite=TRUE) #Please install with your own census API key
 library(tigris)
 options(tigris_use_cache = TRUE)
 var_acs19 <- load_variables(2019, "acs5", cache = TRUE) #Use this to lookup variables
